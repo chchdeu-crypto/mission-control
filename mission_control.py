@@ -15,4 +15,9 @@ print("distance var type" ,type(distance_to_target))
 print("mission_active_var", type(mission_active_status))
 #mission 5
 full_distance = distance_to_target*2
-print(full_distance)
+print("the pull distance", full_distance)
+#mission 6
+fuel_usage = 2
+fuel_usage = int(fuel_usage)
+full_fuel_gas = full_distance*fuel_usage
+print("full fuel gas", full_fuel_gas)
