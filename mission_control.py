@@ -1,13 +1,18 @@
-#mission 1
+#mission 1/2
 agent_name = "chaim"
 mission_code = 2144
 distance_to_target = 100.0
 mission_active_status = True
+#mission 3
 print(agent_name)
 print(mission_code)
 print(distance_to_target)
 print(mission_active_status)
+#mission 4
 print("agent var type",type(agent_name))
 print("mission code var type" ,type(mission_code))
 print("distance var type" ,type(distance_to_target))
 print("mission_active_var", type(mission_active_status))
+#mission 5
+full_distance = distance_to_target*2
+print(full_distance)
