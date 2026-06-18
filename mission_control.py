@@ -31,3 +31,7 @@ time_in_second = int(input("enter time in second"))
 time_in_minute = time_in_second/60
 time_in_hours = time_in_minute/60
 print("travel time" , time_in_hours)
+#section 9
+distance_in_km = int(input("your distance in km"))
+distance_in_miles = distance_in_km/1.6
+print(distance_in_miles)
