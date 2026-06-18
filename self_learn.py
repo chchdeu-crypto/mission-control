@@ -18,3 +18,10 @@ print(bin(gad))
 print(bin(chaim))
 print(gad == chaim)
 print(gad < chaim)
+#3
+number_int = 2
+number_float = 2.0
+#print(bin(number_float))
+print(bin(number_int))
+print(number_float == number_int)
+print(number_float > number_int)
