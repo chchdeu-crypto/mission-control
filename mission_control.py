@@ -35,3 +35,7 @@ print("travel time" , time_in_hours)
 distance_in_km = int(input("your distance in km"))
 distance_in_miles = distance_in_km/1.6
 print(distance_in_miles)
+#mission 10
+new_agent = input("enter your name")
+print(agent_name)
+print(new_agent)
