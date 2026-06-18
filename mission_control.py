@@ -21,3 +21,7 @@ fuel_usage = 2
 fuel_usage = int(fuel_usage)
 full_fuel_gas = full_distance*fuel_usage
 print("full fuel gas", full_fuel_gas)
+#mission 7
+total_fuel = 450
+fuel_remaining = total_fuel-full_fuel_gas
+print("fuel remaining" , fuel_remaining)
